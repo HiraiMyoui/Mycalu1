@@ -29,6 +29,9 @@ function appendToDisplay (input) {
           display.value = "You are doing great!!";  // Display 'You are doing great!!'
       } else if (inputValue === "06+06") {
           display.value = "You are loved!";  // Display 'I love you'
+      }
+       else if (inputValue === "7+7") {
+          display.value = "Miss u lodicakes";  // Display 'I love you'
       } else { 
           try {
               display.value = eval(inputValue);  // Otherwise, evaluate as a normal math expression
